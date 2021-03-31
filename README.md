@@ -6,6 +6,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   ```bash
   python3 VirusTotal_static_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
    ```
+   The result will look like this:
    ```json
   {
    "totale_av":76,
@@ -803,6 +804,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   ```bash
   python3 VirusTotal_dynamic_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
   ```
+  The result will look like this:
   ```json
   {
    "meta":{
@@ -1372,6 +1374,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   ```bash
   python3 VirusTotal_v3_comments.py --file b553641092e1a15e70f1229cb9ada0a47132f054
   ```
+  The result will look like this:
   ```json
   {
    "meta":{
@@ -1429,6 +1432,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   ```bash
   python3 AlienVault_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
   ```
+  The result will look like this:
   ```json
   {
    "analysis":{
