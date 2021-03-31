@@ -8,12 +8,6 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
    ```
    The result will look like this:
    ```json
-  {
-   "totale_av":76,
-   "name_apt":"sLoad",
-   "other_name_apt":null,
-   "nazione":"Cybercrime",
-   "vt":{
       "data":{
          "attributes":{
             "type_description":"Office Open XML Document",
@@ -794,8 +788,6 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
             "self":"https://www.virustotal.com/api/v3/files/e8a2b27a55533d19b8c1b6d5af8f7988bfad771b9debb9a6c1903625a457065c"
          }
       }
-   }
-}
   ```
   
   
