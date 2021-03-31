@@ -35,7 +35,6 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
 ### OTX AlienVault
 1. Create an account here [https://otx.alienvault.com/] (https://otx.alienvault.com/)
 2. Check `API Integration` here [https://otx.alienvault.com/api] (https://otx.alienvault.com/api)
-3. 
 ## JSON Results
   ### VirusTotal_static_analysis.py
    ```json
