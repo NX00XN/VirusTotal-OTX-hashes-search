@@ -27,5 +27,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     result = get_file_report(args.file)
-    print(json.dumps(result)) #cambiato in quanto non riuscivo a parsare Json
+    print(json.dumps(result)) #Json dump
 
