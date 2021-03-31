@@ -6,7 +6,21 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   ```bash
   python3 VirusTotal_static_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
    ```
-   The result will look like this:
+  #### Download VirusTotal - Dynamic Analysis
+  ```bash
+  python3 VirusTotal_dynamic_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
+  ```
+  #### Download VirusTotal - Comments
+  ```bash
+  python3 VirusTotal_v3_comments.py --file b553641092e1a15e70f1229cb9ada0a47132f054
+  ```  
+  #### Download AlienVault - Static & Dynamic
+  ```bash
+  python3 AlienVault_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
+  ```
+    
+## JSON Results
+  ### VirusTotal_static_analysis.py
    ```json
       "data":{
          "attributes":{
@@ -790,13 +804,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
       }
   ```
   
-  
-  
-  #### Download VirusTotal - Dynamic Analysis
-  ```bash
-  python3 VirusTotal_dynamic_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
-  ```
-  The result will look like this:
+   ### VirusTotal_static_analysis.py
   ```json
   {
    "meta":{
@@ -1361,12 +1369,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
    }
 }
   ```
-  
-  #### Download VirusTotal - Comments
-  ```bash
-  python3 VirusTotal_v3_comments.py --file b553641092e1a15e70f1229cb9ada0a47132f054
-  ```
-  The result will look like this:
+  ### VirusTotal_v3_comments.py
   ```json
   {
    "meta":{
@@ -1419,12 +1422,7 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
    }
 }
   ```
-   
-  #### Download AlienVault - Static & Dynamic
-  ```bash
-  python3 AlienVault_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
-  ```
-  The result will look like this:
+   ### VirusTotal_v3_comments.py
   ```json
   {
    "analysis":{
@@ -8173,6 +8171,8 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
    }
 }
    ```
+
+ 
 
 ## Requirements
 - Python 3.7 and higher
