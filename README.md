@@ -20,9 +20,12 @@ The Python Scripts to use for downloading static, dynamic analysis and comments 
   python3 AlienVault_analysis.py --file b553641092e1a15e70f1229cb9ada0a47132f054
   ```
 
+
 ## Requirements
 - Python 3.7 and higher
 - Internet Connection (Proxy Support; SSL/TLS interception can be a problem)
+
+
 
 ## Get the API Keys
 
