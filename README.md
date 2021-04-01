@@ -1,6 +1,10 @@
 # Online search hashes-based on VirusTotal-OTX
 The Python Scripts are usefu for downloading json static / dynamic malware analysis and comments from VirusTotal and OTX Alienvault.
 
+Author :
+
+LinkedIn : [@Vito Lucatorto](https://www.linkedin.com/in/vlucatorto/)
+
 ## Usage
   #### Download VirusTotal - Static Analysis 
   ```bash
